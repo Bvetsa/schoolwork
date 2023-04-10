@@ -1,0 +1,18 @@
+name = input("Enter name: ")
+address = input("Enter address: ")
+city = input("Enter city name: ")
+state = input("Enter state name: ")
+zip_code = input("Enter zip code: ")
+item1 = input("Enter the first item you would like to purchase: ")
+item2 = input("Enter the second item you would like to purchase: ")
+item3 = input("Enter the third item you would like to purchase: ")
+
+respnonse = input("Your name is " + name + ". You live at " + address + ", " + city + ", " + state + ", " + zip_code + ". You would like to buy " + item1 + ", " + item2 + ", and " + item3 + ". \nIs this information correct? ")
+
+item1p = int(input("Enter price of item 1: "))
+item2p = int(input("Enter price of item 2: "))
+item3p = int(input("Enter price of item 3: "))
+
+total_cost = (item1p + item2p + item3p)
+
+print("Your total cost is $" + str(total_cost) + ".")
